@@ -1,7 +1,12 @@
 {
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "knex": "^0.17.2",
+    "nodemon": "^1.19.1",
     "sqlite3": "^4.0.8"
   }
 }
